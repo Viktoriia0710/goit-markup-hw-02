@@ -1,0 +1,150 @@
+.body {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+/*Header*/
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.navigation-list-item:focus,
+.navigation-list-item:hover {
+  color: #2196f3;
+}
+
+.header-mail-link:hover,
+.header-tel-link:focus,
+.header-mail-link:focus,
+.header-tel-link:hover {
+  color: #2196f3;
+}
+
+.header-mail-link,
+.header-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+/*Hero*/
+.caption {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #757575;
+}
+/* цвет заголовка сменю позже*/
+
+.navigation-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875px;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+.navigation-button:hover,
+.navigation-button:focus {
+  color: #2196f3;
+}
+
+/*наши преимущества*/
+.subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.desc-item {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/*our team*/
+.workers-desk {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.workers-list-img {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.workers-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*footer*/
+.nav-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+/*portfolio*/
