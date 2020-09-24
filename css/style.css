@@ -21,6 +21,20 @@
 
   color: #212121;
 }
+.logo-web {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-studio {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
@@ -148,3 +162,19 @@
 }
 
 /*portfolio*/
+
+/*buttons*/
+.btn-container {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.btn-container:hover,
+.btn-container:focus {
+  color: #2196f3;
+}
