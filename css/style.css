@@ -21,6 +21,9 @@
 
   color: #212121;
 }
+.current {
+  color: #2196f3;
+}
 .logo-web {
   font-weight: bold;
   font-size: 26px;
