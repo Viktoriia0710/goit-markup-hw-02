@@ -1,5 +1,12 @@
+:root {
+  --maim-font: "roboto", sans-serif;
+  --color-title: #212121;
+  --color-cotent: #757575;
+  --accent-color: #2196f3;
+}
+
 .body {
-  font-family: "roboto", sans-serif;
+  font-family: var(--maim-font);
   font-style: normal;
 }
 .list {
@@ -43,14 +50,14 @@
 .navigation-list-link:focus,
 .navigation-list-item:focus,
 .navigation-list-item:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-mail-link:hover,
 .header-tel-link:focus,
 .header-mail-link:focus,
 .header-tel-link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-mail-link,
@@ -76,7 +83,7 @@
 /* цвет заголовка сменю позже*/
 
 .navigation-button {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--maim-font);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -89,7 +96,7 @@
 
 .navigation-button:hover,
 .navigation-button:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*наши преимущества*/
@@ -100,7 +107,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--color-title);
 }
 .description {
   font-weight: normal;
@@ -108,7 +115,7 @@
   line-height: 1.714px;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--color-cotent);
 }
 
 .desc-item {
@@ -118,7 +125,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--color-title);
 }
 /*our team*/
 .workers-desk {
@@ -128,7 +135,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--color-title);
 }
 
 .workers-list-img {
@@ -138,7 +145,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--color-title);
 }
 .workers-position {
   font-weight: normal;
@@ -147,7 +154,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--color-cotent);
 }
 
 /*footer*/
@@ -161,14 +168,14 @@
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*portfolio*/
 
 /*buttons*/
 .btn-container {
-  font-family: Roboto;
+  font-family: var(--maim-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -179,5 +186,5 @@
 }
 .btn-container:hover,
 .btn-container:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
