@@ -8,6 +8,15 @@ body {
 .link {
   text-decoration: none;
 }
+.hero {
+  background-color: #2f303a;
+}
+.footer {
+  background-color: #2f303a;
+}
+address {
+  font-style: normal;
+}
 /*logo header+footer*/
 .logo-web,
 .logo-studio {
@@ -24,17 +33,23 @@ body {
 .logo-studio {
   color: #000000;
 }
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 /*end logo header+footer*/
 
-/*navigation*/
+/*header-nav*/
 .header-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: #212121;
-}
-
-.hero {
-  background-color: #2f303a;
 }
