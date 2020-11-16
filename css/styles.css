@@ -1,0 +1,40 @@
+body {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*logo header+footer*/
+.logo-web,
+.logo-studio {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  font-family: Raleway;
+  font-style: normal;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #000000;
+}
+/*end logo header+footer*/
+
+/*navigation*/
+.header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.hero {
+  background-color: #2f303a;
+}
