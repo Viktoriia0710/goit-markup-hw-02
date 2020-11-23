@@ -8,7 +8,6 @@
 
 body {
   font-family: var(--main-font);
-  font-style: normal;
 }
 .list {
   list-style: none;
@@ -37,7 +36,7 @@ address {
 
 .logo-web,
 .logo-studio {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
@@ -47,13 +46,10 @@ address {
 .logo-web {
   color: #2196f3;
 }
-.logo-studio {
-  color: #000000;
-}
+
 .logo-footer {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
@@ -104,7 +100,7 @@ h1 {
 /* end hero */
 /* h2 */
 .section h3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
@@ -112,7 +108,7 @@ h1 {
   color: var(--main-font-color);
 }
 .section p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -121,7 +117,7 @@ h1 {
 /* end h2 */
 /* what we are doing */
 .section-image h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
@@ -129,7 +125,7 @@ h1 {
   color: var(--main-font-color);
 }
 .section-team h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
@@ -151,7 +147,7 @@ h1 {
   color: var(--main-font-color);
 }
 .section-team p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
@@ -161,14 +157,14 @@ h1 {
 /* end our team */
 /* footer */
 .footer-map {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--main-white-color);
 }
 .footer-info {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -197,14 +193,14 @@ h1 {
   color: var(--main-white-color);
 }
 .section-portfolio h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-font-color);
 }
 .section-portfolio p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
